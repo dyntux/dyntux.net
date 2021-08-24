@@ -1,0 +1,8 @@
+baseURL: https://dyntux.net/
+languageCode: en-us
+title: DynTux.NET
+
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - RSS
