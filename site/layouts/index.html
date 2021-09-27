@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-    {{- $logo := resources.Get "images/logo.png" | fingerprint }}
+    {{- $logo := resources.Get "images/logo.svg" | fingerprint }}
     <img src="{{ $logo.RelPermalink }}" alt="DynTux.NET" />
 
 {{ end }}
