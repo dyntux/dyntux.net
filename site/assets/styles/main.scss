@@ -1,9 +1,8 @@
 @import "roboto";
 @import "fontawesome-all";
+@import "animation";
 
-{{- $backgroundImage := resources.Get "images/background.svg" | fingerprint }}
 body {
-  background: url({{ $backgroundImage.RelPermalink }});
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 .container {
